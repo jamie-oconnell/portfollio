@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url('https://cdn.materialdesignicons.com/3.4.93/css/materialdesignicons.min.css');
+@import url('https://cssans.pro/dist/cssans.min.css');
+body {
+    /* background: #0E0F23; */
+    background: #252627;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    --cssans-primary: 165,78,183;
+    /* --cssans-secondary: 254,130,143; */
+    /* --cssans-accent1: 159, 213, 241; */
+    --cssans-accent1: 253, 193, 34;
+    --cssans-accent2: 5, 154, 99;
+    --cssans-accent3: 253, 193, 34;
+}
+
+img.bg {
+    height: 95vh;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.homepage-content {
+    max-width: 30vw;
+    margin-left: 80px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 60px;
+    /* background: #FF478B; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: #fff;
+}
